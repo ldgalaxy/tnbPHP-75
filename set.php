@@ -2,6 +2,8 @@
 
 $time = time();
 
-setcookie('username', 'Larry', $time + 30);
+setcookie('username', 'George', $time + 1000);
 
+
+setcookie('username', 'George', $time - 1000);
 ?>
